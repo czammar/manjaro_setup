@@ -2,6 +2,8 @@
 
 **Fecha:** 05/09/2020
 
+Setup de manjaro tras instalación.
+
 ## R y Rstudio
 ```{bash}
 # Install yay para binarios https://kumulonimb.us/post/instalar_rstudio_manjaro/
