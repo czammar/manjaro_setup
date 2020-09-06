@@ -45,6 +45,10 @@ pyenv install --list
 ## Docker
 ```{bash}
 sudo pacman -S docker
+sudo systemctl start docker.service # start docker service
+sudo systemctl enable docker.service # enable docker service after reboot
+sudo usermod -aG docker $USER # run docker as regular user (not root)
+sudo reboot
 ```
 ## Gummi
 ```{bash}
