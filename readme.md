@@ -26,8 +26,8 @@ yay -S openblas-lapack # Elimina blas y lapack
 wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
 sh Anaconda3-2019.10-Linux-x86_64.sh
 # Habilitar comandos jupyter y jupyter lab
-echo "## -- Seteamos el path para llamar anaconda# >>.zshrc
-echo "export PATH="/home/cesar/anaconda3/bin:$PATH"" >>.zshrc
+echo "## -- Seteamos el path para llamar anaconda#" >>.zshrc
+echo "export PATH="/home/cesar/anaconda3/bin:$PATH" >>.zshrc
 ```
 
 ## Pyenv
