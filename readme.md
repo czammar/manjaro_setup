@@ -80,7 +80,7 @@ sudo pacman -S snapd
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install sublime-text --classic
-sudo pacman -S atomhhhhh
+sudo pacman -S atom
 ```
 
 ## Postgres
@@ -91,7 +91,4 @@ sudo pacman -S postgresql postgresql-docs postgis
 ## Otros
 ```{bash}
 sudo pacman -S youtube-dl htop tree
-```
-
-
 ```
